@@ -1,0 +1,49 @@
+# Build outputs
+build/
+buildtmp/
+dist/
+out/
+*.o
+*.a
+*.d
+*.elf
+*.map
+*.lst
+*.nacp
+*.nro
+*.nso
+*.nsp
+*.npdm
+*.kip
+*.pfs0
+
+# Tool/editor noise
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Local runtime configuration and private OAuth material
+/config.json
+credentials.json
+gdrive.token
+gdrive*.json
+rclone.conf
+
+# DRM private key
+romfs/keys/
+romfs/keys/index_private.pem
+include/keys/PrivateKey*.hpp
+*.private.pem
+*.private.der
+*.blob
+
+# ignore build forwarder
+forwarder/exefs/
+forwarder/build/
+forwarder/control/
+forwarder/logo/
+
+# ignore some tools
+tools/generate_key_blob.py
+tools/convert_icon.py

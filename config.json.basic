@@ -1,0 +1,18 @@
+{
+    "allowUnsignedSources": true,
+    "catalogPassword": "PASSWORD",
+    "catalogTitle": "LiteServer",
+    "catalogUrl": "http://remote.server.com/",
+    "catalogUsername": "USERNAME",
+    "language": "en-US",
+    "rcloneCrypt": {
+        "catalogSizes": "plain",
+        "enabled": true,
+        "password": "PASSWORD",
+        "password2": "PASSWORD2"
+    },
+    "showClock": true,
+    "sortMode": "recent",
+    "theme": "auto",
+    "update_url": "https://remote.server.com/index.json"
+}
